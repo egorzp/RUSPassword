@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="#ff000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_rus"
+        android:id="@+id/rusLabel"
+        android:textColor="#ffffffff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rusPasEditText"
+        android:textColor="#ffeafffd" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_eng"
+        android:id="@+id/engLabel"
+        android:textColor="#ffffffff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/engPasEditText"
+        android:textColor="#ffa5ffbb" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/convert_button"
+        android:id="@+id/buttonConvert"
+        android:onClick="onClick"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/copy_botton"
+        android:id="@+id/buttonCoppy"
+        android:onClick="onClick"
+        android:textColor="#ffffffff" />
+</LinearLayout>
